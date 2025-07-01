@@ -854,16 +854,64 @@ body {
         margin: 10px 0;
     }
 /* تصميم للهواتف (شاشات أقل من 768px) */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
+  body { font-size: 15px; }
+  h1 { font-size: 1.6rem; }
+}
+
+@media (max-width: 320px) {
+  body { font-size: 14px; }
+}
+    @media (max-width: 768px) {
+  /* منع تكبير النص عند الدوران */
+  html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+  }
+  
+  /* تحسين المسافات */
+  p {
+    margin-bottom: 1.2em;
+  }
+}
     body {
-        font-size: 14px;
-    }
-    
-    nav ul {
-        flex-direction: column;
-    }
-    
-    section {
-        padding: 10px;
-        margin: 10px 0;
-    }
+  direction: rtl;
+  font-family: 'Tahoma', Arial, sans-serif; /* خطوط مناسبة للعربية */
+}
+    /* الأساسيات للهواتف */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px; /* حجم النص الأساسي */
+    line-height: 1.5; /* تباعد الأسطر */
+    text-align: right; /* للمحتوى العربي */
+    padding: 10px; /* هامش داخلي */
+  }
+  
+  h1 {
+    font-size: 1.8rem; /* 28.8px تقريباً */
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    font-size: 1.5rem; /* 24px */
+  }
+  
+  p, li, a {
+    font-size: 1rem; /* 16px */
+    word-spacing: 1px; /* تباعد الكلمات */
+  }
+  
+  /* تحسين الروابط للشاشات اللمسية */
+  a {
+    padding: 5px 0;
+    display: inline-block;
+    min-width: 44px; /* للحصول على مساحة لمس جيدة */
+    min-height: 44px;
+  }
+  
+  /* تحسين عناصر القوائم */
+  li {
+    margin-bottom: 8px;
+    padding-right: 10px;
+  }
+}
