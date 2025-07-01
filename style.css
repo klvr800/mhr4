@@ -811,3 +811,59 @@ body {
     transition: width 0.3s ease;
     box-shadow: var(--glow-blue);
 }
+/* تصميم للهواتف (شاشات أقل من 768px) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    
+    nav ul {
+        flex-direction: column;
+    }
+    
+    section {
+        padding: 10px;
+        margin: 10px 0;
+    }
+/* تصميم للهواتف (شاشات أقل من 768px) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    
+    nav ul {
+        flex-direction: column;
+    }
+    
+    section {
+        padding: 10px;
+        margin: 10px 0;
+    }
+/* تصميم للهواتف (شاشات أقل من 768px) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    
+    nav ul {
+        flex-direction: column;
+    }
+    
+    section {
+        padding: 10px;
+        margin: 10px 0;
+    }
+/* تصميم للهواتف (شاشات أقل من 768px) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    
+    nav ul {
+        flex-direction: column;
+    }
+    
+    section {
+        padding: 10px;
+        margin: 10px 0;
+    }
